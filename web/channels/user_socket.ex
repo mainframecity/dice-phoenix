@@ -2,7 +2,7 @@ defmodule Dice.UserSocket do
   use Phoenix.Socket
 
   ## Channels
-  # channel "room:*", Dice.RoomChannel
+  channel "room:*", Dice.RoomChannel
 
   ## Transports
   transport :websocket, Phoenix.Transports.WebSocket
